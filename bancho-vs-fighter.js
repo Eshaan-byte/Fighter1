@@ -121,45 +121,45 @@ class Fighter {
     
     loadBanchoAnimations() {
         this.animations = {
-            idle: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_Idle.png', 7, 100, 100, 0.1),
-            walk: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_walk.png', 6, 100, 100, 0.15),
-            walkBack: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_walk.png', 6, 100, 100, 0.1),
-            jump: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_Jump.png', 10, 100, 100, 0.15),
-            attack1: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_attack1.png', 9, 100, 100, 0.25),
-            attack2: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_attack2.png', 11, 100, 100, 0.22),
-            attack3: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_attack3.png', 10, 100, 100, 0.2),
-            hurt: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_Hurt.png', 4, 100, 100, 0.15),
-            block: new SpriteAnimation('Bancho_Download Free/Sprite Sheet/Bancho_Idle.png', 1, 100, 100, 0.1)
+            idle: new SpriteAnimation('bancho/Sprite Sheet/Bancho_Idle.png', 7, 100, 100, 0.1),
+            walk: new SpriteAnimation('bancho/Sprite Sheet/Bancho_walk.png', 6, 100, 100, 0.15),
+            walkBack: new SpriteAnimation('bancho/Sprite Sheet/Bancho_walk.png', 6, 100, 100, 0.1),
+            jump: new SpriteAnimation('bancho/Sprite Sheet/Bancho_Jump.png', 10, 100, 100, 0.15),
+            attack1: new SpriteAnimation('bancho/Sprite Sheet/Bancho_attack1.png', 9, 100, 100, 0.25),
+            attack2: new SpriteAnimation('bancho/Sprite Sheet/Bancho_attack2.png', 11, 100, 100, 0.22),
+            attack3: new SpriteAnimation('bancho/Sprite Sheet/Bancho_attack3.png', 10, 100, 100, 0.2),
+            hurt: new SpriteAnimation('bancho/Sprite Sheet/Bancho_Hurt.png', 4, 100, 100, 0.15),
+            block: new SpriteAnimation('bancho/Sprite Sheet/Bancho_Idle.png', 1, 100, 100, 0.1)
         };
         this.currentAnimation = this.animations.idle;
     }
     
     loadBattingGirlAnimations() {
         this.animations = {
-            idle: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Idle-Sheet.png', 15, 100, 100, 0.08),
-            walk: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Walk-Sheet.png', 6, 100, 100, 0.15),
-            walkBack: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Walk-Sheet.png', 6, 100, 100, 0.1),
-            jump: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Jump-Sheet.png', 8, 100, 100, 0.15),
-            attack1: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_attack01-Sheet.png', 5, 110, 100, 0.25),
-            attack2: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_attack02-Sheet.png', 8, 110, 100, 0.22),
-            attack3: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_attack03-Sheet.png', 11, 110, 100, 0.2),
-            hurt: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Hurt-Sheet.png', 8, 100, 100, 0.12),
-            block: new SpriteAnimation('BattingGirl_Download Free/Sprite Sheet/BattingGirl_Idle-Sheet.png', 1, 100, 100, 0.1)
+            idle: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Idle-Sheet.png', 15, 100, 100, 0.08),
+            walk: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Walk-Sheet.png', 6, 100, 100, 0.15),
+            walkBack: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Walk-Sheet.png', 6, 100, 100, 0.1),
+            jump: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Jump-Sheet.png', 8, 100, 100, 0.15),
+            attack1: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_attack01-Sheet.png', 5, 110, 100, 0.25),
+            attack2: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_attack02-Sheet.png', 8, 110, 100, 0.22),
+            attack3: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_attack03-Sheet.png', 11, 110, 100, 0.2),
+            hurt: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Hurt-Sheet.png', 8, 100, 100, 0.12),
+            block: new SpriteAnimation('battinggirl/Sprite Sheet/BattingGirl_Idle-Sheet.png', 1, 100, 100, 0.1)
         };
         this.currentAnimation = this.animations.idle;
     }
     
     loadBruteArmsAnimations() {
         this.animations = {
-            idle: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Idle.png', 8, 100, 101, 0.1),
-            walk: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Walk.png', 6, 100, 100, 0.15),
-            walkBack: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Walk.png', 6, 100, 100, 0.1),
-            jump: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Jump.png', 10, 120, 128, 0.15),
-            attack1: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_attack01.png', 7, 160, 128, 0.25),
-            attack2: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_attack02.png', 5, 160, 128, 0.22),
-            attack3: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_attack04.png', 8, 160, 128, 0.2),
-            hurt: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Hurt.png', 8, 160, 128, 0.15),
-            block: new SpriteAnimation('BruteArms_FreeDownload/Sprite Sheet/BruteArm_Idle.png', 1, 100, 101, 0.1)
+            idle: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Idle.png', 8, 100, 101, 0.1),
+            walk: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Walk.png', 6, 100, 100, 0.15),
+            walkBack: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Walk.png', 6, 100, 100, 0.1),
+            jump: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Jump.png', 10, 120, 128, 0.15),
+            attack1: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_attack01.png', 7, 160, 128, 0.25),
+            attack2: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_attack02.png', 5, 160, 128, 0.22),
+            attack3: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_attack04.png', 8, 160, 128, 0.2),
+            hurt: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Hurt.png', 8, 160, 128, 0.15),
+            block: new SpriteAnimation('brutearms/Sprite Sheet/BruteArm_Idle.png', 1, 100, 101, 0.1)
         };
         this.currentAnimation = this.animations.idle;
     }
